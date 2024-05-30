@@ -1,0 +1,56 @@
+FORMAT
+type: ensight gold
+GEOMETRY
+model: 2 ./20177_c0fef859_0_mechanical_*.geo
+VARIABLE
+vector per node: 1 Displacement ./20177_c0fef859_0_mechanical00_*.dis.ens
+tensor symm per node: 1 Cauchy_stress ./20177_c0fef859_0_mechanical00_*.sig.ens
+scalar per node: 1 von_Mises_stress ./20177_c0fef859_0_mechanical00_*.svm.ens
+scalar per node: 1 Principal_stress_max ./20177_c0fef859_0_mechanical00_*.sp1.ens
+scalar per node: 1 Principal_stress_mid ./20177_c0fef859_0_mechanical00_*.sp2.ens
+scalar per node: 1 Principal_stress_min ./20177_c0fef859_0_mechanical00_*.sp3.ens
+vector per node: 1 Principal_stress_direction_max ./20177_c0fef859_0_mechanical00_*.sd1.ens
+vector per node: 1 Principal_stress_direction_mid ./20177_c0fef859_0_mechanical00_*.sd2.ens
+vector per node: 1 Principal_stress_direction_min ./20177_c0fef859_0_mechanical00_*.sd3.ens
+tensor symm per node: 1 Elastic_strain ./20177_c0fef859_0_mechanical00_*.ept.ens
+scalar per node: 1 Temperature ./20177_c0fef859_0_mechanical00_*.tmp.ens
+scalar per element: 1 Structure_type ./20177_c0fef859_0_mechanical00_*.typ.ens
+scalar per node: 1 Recoater_clearance_% ./20177_c0fef859_0_mechanical00_*.rct.ens
+scalar per node: 1 Recoater_status ./20177_c0fef859_0_mechanical00_*.rcd.ens
+TIME
+time set: 1
+number of steps: 16
+filename start number: 1
+filename increment: 1
+time values:
+  1.0000000000000000E-02
+  1.6076206325858298E+03
+  1.6077206325858297E+03
+  3.2168564253905233E+03
+  3.2169564253905232E+03
+  4.8263930220621978E+03
+  4.8264930220621982E+03
+  6.4356288148668918E+03
+  6.4357288148668922E+03
+  8.0439621960706445E+03
+  8.0440621960706449E+03
+  9.6510923618064735E+03
+  9.6511923618064739E+03
+  1.0052974903240432E+04
+  6.0052974903240436E+04
+  1.1005297490324044E+05
+TIME
+time set: 2
+number of steps: 9
+filename start number: 1
+filename increment: 1
+time values:
+  1.0000000000000000E-02
+  1.6077206325858297E+03
+  3.2169564253905232E+03
+  4.8264930220621982E+03
+  6.4357288148668922E+03
+  8.0440621960706449E+03
+  9.6511923618064739E+03
+  6.0052974903240436E+04
+  1.1005297490324044E+05
