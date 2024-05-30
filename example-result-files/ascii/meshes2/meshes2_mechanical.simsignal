@@ -1,0 +1,360 @@
+{"schema": "simsignal-1.0"}
+{"information": {"number of threads": 16}}
+{"message": {"type": "critical warning", "code": 1010, "variables": [], "tag": "Signal tag 3128"}}
+{"progress":   0.000000000000000E+000}
+{"information": {"finished writing file": "results\\meshes2_mechanical_0.geof"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical_0.geo"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_0.typ.ens"}}
+{"information": {"finished writing file": ".\\meshes2_mechanical_mesh_geom.case"}}
+{"information": {"layer nodes": 1679}}
+{"information": {"nodes": 1679}}
+{"information": {"ram": {"required" :   0.328789456834793, "available":    52.9193420410156, "system"   :    63.6960258483887}, "units": "GB"}}
+{"node": 1, "xyz": [  -10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 1, "layer": 0}
+{"node": 1, "xyz": [  -10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 2, "layer": 0}
+{"node": 1, "xyz": [  -10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 3, "layer": 0}
+{"node": 2, "xyz": [   10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 1, "layer": 0}
+{"node": 2, "xyz": [   10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 2, "layer": 0}
+{"node": 2, "xyz": [   10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 3, "layer": 0}
+{"node": 3, "xyz": [   10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 1, "layer": 0}
+{"node": 3, "xyz": [   10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 2, "layer": 0}
+{"node": 3, "xyz": [   10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 3, "layer": 0}
+{"node": 4, "xyz": [  -10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 1, "layer": 0}
+{"node": 4, "xyz": [  -10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 2, "layer": 0}
+{"node": 4, "xyz": [  -10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 3, "layer": 0}
+{"node": 1, "xyz": [  -10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 1, "layer": 0}
+{"node": 4, "xyz": [  -10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 1, "layer": 0}
+{"node": 5, "xyz": [  -10.0000000000000,   -10.0000000000000,   -12.5000000000000], "fix": 1, "layer": 0}
+{"node": 8, "xyz": [  -10.0000000000000,    10.0000000000000,   -12.5000000000000], "fix": 1, "layer": 0}
+{"node": 12, "xyz": [  -10.0000000000000,   -10.0000000000000,   -6.25000000000000], "fix": 1, "layer": 0}
+{"node": 15, "xyz": [  -10.0000000000000,   0.000000000000000E+000,   -6.25000000000000], "fix": 1, "layer": 0}
+{"node": 18, "xyz": [  -10.0000000000000,    10.0000000000000,   -6.25000000000000], "fix": 1, "layer": 0}
+{"node": 26, "xyz": [  -10.0000000000000,   -10.0000000000000,   -3.12500000000000], "fix": 1, "layer": 0}
+{"node": 29, "xyz": [  -10.0000000000000,   -5.00000000000000,   -3.12500000000000], "fix": 1, "layer": 0}
+{"node": 32, "xyz": [  -10.0000000000000,   0.000000000000000E+000,   -3.12500000000000], "fix": 1, "layer": 0}
+{"node": 36, "xyz": [  -10.0000000000000,    5.00000000000000,   -3.12500000000000], "fix": 1, "layer": 0}
+{"node": 39, "xyz": [  -10.0000000000000,    10.0000000000000,   -3.12500000000000], "fix": 1, "layer": 0}
+{"node": 67, "xyz": [  -10.0000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 1, "layer": 0}
+{"node": 70, "xyz": [  -10.0000000000000,   -7.50000000000000,   -1.56250000000000], "fix": 1, "layer": 0}
+{"node": 77, "xyz": [  -10.0000000000000,   -5.00000000000000,   -1.56250000000000], "fix": 1, "layer": 0}
+{"node": 83, "xyz": [  -10.0000000000000,   -2.50000000000000,   -1.56250000000000], "fix": 1, "layer": 0}
+{"node": 86, "xyz": [  -10.0000000000000,   0.000000000000000E+000,   -1.56250000000000], "fix": 1, "layer": 0}
+{"node": 90, "xyz": [  -10.0000000000000,    2.50000000000000,   -1.56250000000000], "fix": 1, "layer": 0}
+{"node": 93, "xyz": [  -10.0000000000000,    5.00000000000000,   -1.56250000000000], "fix": 1, "layer": 0}
+{"node": 97, "xyz": [  -10.0000000000000,    7.50000000000000,   -1.56250000000000], "fix": 1, "layer": 0}
+{"node": 104, "xyz": [  -10.0000000000000,    10.0000000000000,   -1.56250000000000], "fix": 1, "layer": 0}
+{"node": 264, "xyz": [  -10.0000000000000,   -3.75000000000000,  -0.781250000000000], "fix": 1, "layer": 0}
+{"node": 270, "xyz": [  -10.0000000000000,   -2.50000000000000,  -0.781250000000000], "fix": 1, "layer": 0}
+{"node": 276, "xyz": [  -10.0000000000000,   -1.25000000000000,  -0.781250000000000], "fix": 1, "layer": 0}
+{"node": 281, "xyz": [  -10.0000000000000,   0.000000000000000E+000,  -0.781250000000000], "fix": 1, "layer": 0}
+{"node": 287, "xyz": [  -10.0000000000000,    1.25000000000000,  -0.781250000000000], "fix": 1, "layer": 0}
+{"node": 292, "xyz": [  -10.0000000000000,    2.50000000000000,  -0.781250000000000], "fix": 1, "layer": 0}
+{"node": 298, "xyz": [  -10.0000000000000,    3.75000000000000,  -0.781250000000000], "fix": 1, "layer": 0}
+{"node": 2, "xyz": [   10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 1, "layer": 0}
+{"node": 3, "xyz": [   10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 1, "layer": 0}
+{"node": 6, "xyz": [   10.0000000000000,   -10.0000000000000,   -12.5000000000000], "fix": 1, "layer": 0}
+{"node": 7, "xyz": [   10.0000000000000,    10.0000000000000,   -12.5000000000000], "fix": 1, "layer": 0}
+{"node": 20, "xyz": [   10.0000000000000,   -10.0000000000000,   -6.25000000000000], "fix": 1, "layer": 0}
+{"node": 21, "xyz": [   10.0000000000000,   0.000000000000000E+000,   -6.25000000000000], "fix": 1, "layer": 0}
+{"node": 22, "xyz": [   10.0000000000000,    10.0000000000000,   -6.25000000000000], "fix": 1, "layer": 0}
+{"node": 58, "xyz": [   10.0000000000000,   -10.0000000000000,   -3.12500000000000], "fix": 1, "layer": 0}
+{"node": 59, "xyz": [   10.0000000000000,   -5.00000000000000,   -3.12500000000000], "fix": 1, "layer": 0}
+{"node": 60, "xyz": [   10.0000000000000,   0.000000000000000E+000,   -3.12500000000000], "fix": 1, "layer": 0}
+{"node": 62, "xyz": [   10.0000000000000,    5.00000000000000,   -3.12500000000000], "fix": 1, "layer": 0}
+{"node": 63, "xyz": [   10.0000000000000,    10.0000000000000,   -3.12500000000000], "fix": 1, "layer": 0}
+{"node": 238, "xyz": [   10.0000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 1, "layer": 0}
+{"node": 239, "xyz": [   10.0000000000000,   -7.50000000000000,   -1.56250000000000], "fix": 1, "layer": 0}
+{"node": 242, "xyz": [   10.0000000000000,   -5.00000000000000,   -1.56250000000000], "fix": 1, "layer": 0}
+{"node": 246, "xyz": [   10.0000000000000,   -2.50000000000000,   -1.56250000000000], "fix": 1, "layer": 0}
+{"node": 247, "xyz": [   10.0000000000000,   0.000000000000000E+000,   -1.56250000000000], "fix": 1, "layer": 0}
+{"node": 249, "xyz": [   10.0000000000000,    2.50000000000000,   -1.56250000000000], "fix": 1, "layer": 0}
+{"node": 250, "xyz": [   10.0000000000000,    5.00000000000000,   -1.56250000000000], "fix": 1, "layer": 0}
+{"node": 252, "xyz": [   10.0000000000000,    7.50000000000000,   -1.56250000000000], "fix": 1, "layer": 0}
+{"node": 256, "xyz": [   10.0000000000000,    10.0000000000000,   -1.56250000000000], "fix": 1, "layer": 0}
+{"node": 720, "xyz": [   10.0000000000000,   -3.75000000000000,  -0.781250000000000], "fix": 1, "layer": 0}
+{"node": 722, "xyz": [   10.0000000000000,   -2.50000000000000,  -0.781250000000000], "fix": 1, "layer": 0}
+{"node": 725, "xyz": [   10.0000000000000,   -1.25000000000000,  -0.781250000000000], "fix": 1, "layer": 0}
+{"node": 727, "xyz": [   10.0000000000000,   0.000000000000000E+000,  -0.781250000000000], "fix": 1, "layer": 0}
+{"node": 730, "xyz": [   10.0000000000000,    1.25000000000000,  -0.781250000000000], "fix": 1, "layer": 0}
+{"node": 732, "xyz": [   10.0000000000000,    2.50000000000000,  -0.781250000000000], "fix": 1, "layer": 0}
+{"node": 735, "xyz": [   10.0000000000000,    3.75000000000000,  -0.781250000000000], "fix": 1, "layer": 0}
+{"node": 1, "xyz": [  -10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 2, "layer": 0}
+{"node": 2, "xyz": [   10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 2, "layer": 0}
+{"node": 5, "xyz": [  -10.0000000000000,   -10.0000000000000,   -12.5000000000000], "fix": 2, "layer": 0}
+{"node": 6, "xyz": [   10.0000000000000,   -10.0000000000000,   -12.5000000000000], "fix": 2, "layer": 0}
+{"node": 12, "xyz": [  -10.0000000000000,   -10.0000000000000,   -6.25000000000000], "fix": 2, "layer": 0}
+{"node": 13, "xyz": [  0.000000000000000E+000,   -10.0000000000000,   -6.25000000000000], "fix": 2, "layer": 0}
+{"node": 20, "xyz": [   10.0000000000000,   -10.0000000000000,   -6.25000000000000], "fix": 2, "layer": 0}
+{"node": 26, "xyz": [  -10.0000000000000,   -10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 0}
+{"node": 27, "xyz": [  -5.00000000000000,   -10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 0}
+{"node": 41, "xyz": [  0.000000000000000E+000,   -10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 0}
+{"node": 49, "xyz": [   5.00000000000000,   -10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 0}
+{"node": 58, "xyz": [   10.0000000000000,   -10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 0}
+{"node": 67, "xyz": [  -10.0000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 0}
+{"node": 68, "xyz": [  -7.50000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 0}
+{"node": 108, "xyz": [  -5.00000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 0}
+{"node": 126, "xyz": [  -2.50000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 0}
+{"node": 153, "xyz": [  0.000000000000000E+000,   -10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 0}
+{"node": 172, "xyz": [   2.50000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 0}
+{"node": 194, "xyz": [   5.00000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 0}
+{"node": 213, "xyz": [   7.50000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 0}
+{"node": 238, "xyz": [   10.0000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 0}
+{"node": 401, "xyz": [  -3.75000000000000,   -10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 0}
+{"node": 436, "xyz": [  -2.50000000000000,   -10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 0}
+{"node": 459, "xyz": [  -1.25000000000000,   -10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 0}
+{"node": 488, "xyz": [  0.000000000000000E+000,   -10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 0}
+{"node": 511, "xyz": [   1.25000000000000,   -10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 0}
+{"node": 540, "xyz": [   2.50000000000000,   -10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 0}
+{"node": 563, "xyz": [   3.75000000000000,   -10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 0}
+{"node": 3, "xyz": [   10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 2, "layer": 0}
+{"node": 4, "xyz": [  -10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 2, "layer": 0}
+{"node": 7, "xyz": [   10.0000000000000,    10.0000000000000,   -12.5000000000000], "fix": 2, "layer": 0}
+{"node": 8, "xyz": [  -10.0000000000000,    10.0000000000000,   -12.5000000000000], "fix": 2, "layer": 0}
+{"node": 17, "xyz": [  0.000000000000000E+000,    10.0000000000000,   -6.25000000000000], "fix": 2, "layer": 0}
+{"node": 18, "xyz": [  -10.0000000000000,    10.0000000000000,   -6.25000000000000], "fix": 2, "layer": 0}
+{"node": 22, "xyz": [   10.0000000000000,    10.0000000000000,   -6.25000000000000], "fix": 2, "layer": 0}
+{"node": 38, "xyz": [  -5.00000000000000,    10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 0}
+{"node": 39, "xyz": [  -10.0000000000000,    10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 0}
+{"node": 46, "xyz": [  0.000000000000000E+000,    10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 0}
+{"node": 56, "xyz": [   5.00000000000000,    10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 0}
+{"node": 63, "xyz": [   10.0000000000000,    10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 0}
+{"node": 103, "xyz": [  -7.50000000000000,    10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 0}
+{"node": 104, "xyz": [  -10.0000000000000,    10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 0}
+{"node": 121, "xyz": [  -5.00000000000000,    10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 0}
+{"node": 151, "xyz": [  -2.50000000000000,    10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 0}
+{"node": 169, "xyz": [  0.000000000000000E+000,    10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 0}
+{"node": 192, "xyz": [   2.50000000000000,    10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 0}
+{"node": 210, "xyz": [   5.00000000000000,    10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 0}
+{"node": 232, "xyz": [   7.50000000000000,    10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 0}
+{"node": 256, "xyz": [   10.0000000000000,    10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 0}
+{"node": 432, "xyz": [  -3.75000000000000,    10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 0}
+{"node": 455, "xyz": [  -2.50000000000000,    10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 0}
+{"node": 485, "xyz": [  -1.25000000000000,    10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 0}
+{"node": 507, "xyz": [  0.000000000000000E+000,    10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 0}
+{"node": 537, "xyz": [   1.25000000000000,    10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 0}
+{"node": 559, "xyz": [   2.50000000000000,    10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 0}
+{"node": 589, "xyz": [   3.75000000000000,    10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 0}
+{"information": {"timeline": "printing start"}}
+{"progress":    1.00000000000000}
+{"information": {"finished writing file": "results\\meshes2_mechanical_1.geo"}}
+{"node": 1, "xyz": [  -10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 1, "layer": 1}
+{"node": 1, "xyz": [  -10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 2, "layer": 1}
+{"node": 1, "xyz": [  -10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 3, "layer": 1}
+{"node": 2, "xyz": [   10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 1, "layer": 1}
+{"node": 2, "xyz": [   10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 2, "layer": 1}
+{"node": 2, "xyz": [   10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 3, "layer": 1}
+{"node": 3, "xyz": [   10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 1, "layer": 1}
+{"node": 3, "xyz": [   10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 2, "layer": 1}
+{"node": 3, "xyz": [   10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 3, "layer": 1}
+{"node": 4, "xyz": [  -10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 1, "layer": 1}
+{"node": 4, "xyz": [  -10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 2, "layer": 1}
+{"node": 4, "xyz": [  -10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 3, "layer": 1}
+{"node": 1, "xyz": [  -10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 1, "layer": 1}
+{"node": 4, "xyz": [  -10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 1, "layer": 1}
+{"node": 5, "xyz": [  -10.0000000000000,   -10.0000000000000,   -12.5000000000000], "fix": 1, "layer": 1}
+{"node": 8, "xyz": [  -10.0000000000000,    10.0000000000000,   -12.5000000000000], "fix": 1, "layer": 1}
+{"node": 12, "xyz": [  -10.0000000000000,   -10.0000000000000,   -6.25000000000000], "fix": 1, "layer": 1}
+{"node": 15, "xyz": [  -10.0000000000000,   0.000000000000000E+000,   -6.25000000000000], "fix": 1, "layer": 1}
+{"node": 18, "xyz": [  -10.0000000000000,    10.0000000000000,   -6.25000000000000], "fix": 1, "layer": 1}
+{"node": 26, "xyz": [  -10.0000000000000,   -10.0000000000000,   -3.12500000000000], "fix": 1, "layer": 1}
+{"node": 29, "xyz": [  -10.0000000000000,   -5.00000000000000,   -3.12500000000000], "fix": 1, "layer": 1}
+{"node": 32, "xyz": [  -10.0000000000000,   0.000000000000000E+000,   -3.12500000000000], "fix": 1, "layer": 1}
+{"node": 36, "xyz": [  -10.0000000000000,    5.00000000000000,   -3.12500000000000], "fix": 1, "layer": 1}
+{"node": 39, "xyz": [  -10.0000000000000,    10.0000000000000,   -3.12500000000000], "fix": 1, "layer": 1}
+{"node": 67, "xyz": [  -10.0000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 1, "layer": 1}
+{"node": 70, "xyz": [  -10.0000000000000,   -7.50000000000000,   -1.56250000000000], "fix": 1, "layer": 1}
+{"node": 77, "xyz": [  -10.0000000000000,   -5.00000000000000,   -1.56250000000000], "fix": 1, "layer": 1}
+{"node": 83, "xyz": [  -10.0000000000000,   -2.50000000000000,   -1.56250000000000], "fix": 1, "layer": 1}
+{"node": 86, "xyz": [  -10.0000000000000,   0.000000000000000E+000,   -1.56250000000000], "fix": 1, "layer": 1}
+{"node": 90, "xyz": [  -10.0000000000000,    2.50000000000000,   -1.56250000000000], "fix": 1, "layer": 1}
+{"node": 93, "xyz": [  -10.0000000000000,    5.00000000000000,   -1.56250000000000], "fix": 1, "layer": 1}
+{"node": 97, "xyz": [  -10.0000000000000,    7.50000000000000,   -1.56250000000000], "fix": 1, "layer": 1}
+{"node": 104, "xyz": [  -10.0000000000000,    10.0000000000000,   -1.56250000000000], "fix": 1, "layer": 1}
+{"node": 264, "xyz": [  -10.0000000000000,   -3.75000000000000,  -0.781250000000000], "fix": 1, "layer": 1}
+{"node": 270, "xyz": [  -10.0000000000000,   -2.50000000000000,  -0.781250000000000], "fix": 1, "layer": 1}
+{"node": 276, "xyz": [  -10.0000000000000,   -1.25000000000000,  -0.781250000000000], "fix": 1, "layer": 1}
+{"node": 281, "xyz": [  -10.0000000000000,   0.000000000000000E+000,  -0.781250000000000], "fix": 1, "layer": 1}
+{"node": 287, "xyz": [  -10.0000000000000,    1.25000000000000,  -0.781250000000000], "fix": 1, "layer": 1}
+{"node": 292, "xyz": [  -10.0000000000000,    2.50000000000000,  -0.781250000000000], "fix": 1, "layer": 1}
+{"node": 298, "xyz": [  -10.0000000000000,    3.75000000000000,  -0.781250000000000], "fix": 1, "layer": 1}
+{"node": 2, "xyz": [   10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 1, "layer": 1}
+{"node": 3, "xyz": [   10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 1, "layer": 1}
+{"node": 6, "xyz": [   10.0000000000000,   -10.0000000000000,   -12.5000000000000], "fix": 1, "layer": 1}
+{"node": 7, "xyz": [   10.0000000000000,    10.0000000000000,   -12.5000000000000], "fix": 1, "layer": 1}
+{"node": 20, "xyz": [   10.0000000000000,   -10.0000000000000,   -6.25000000000000], "fix": 1, "layer": 1}
+{"node": 21, "xyz": [   10.0000000000000,   0.000000000000000E+000,   -6.25000000000000], "fix": 1, "layer": 1}
+{"node": 22, "xyz": [   10.0000000000000,    10.0000000000000,   -6.25000000000000], "fix": 1, "layer": 1}
+{"node": 58, "xyz": [   10.0000000000000,   -10.0000000000000,   -3.12500000000000], "fix": 1, "layer": 1}
+{"node": 59, "xyz": [   10.0000000000000,   -5.00000000000000,   -3.12500000000000], "fix": 1, "layer": 1}
+{"node": 60, "xyz": [   10.0000000000000,   0.000000000000000E+000,   -3.12500000000000], "fix": 1, "layer": 1}
+{"node": 62, "xyz": [   10.0000000000000,    5.00000000000000,   -3.12500000000000], "fix": 1, "layer": 1}
+{"node": 63, "xyz": [   10.0000000000000,    10.0000000000000,   -3.12500000000000], "fix": 1, "layer": 1}
+{"node": 238, "xyz": [   10.0000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 1, "layer": 1}
+{"node": 239, "xyz": [   10.0000000000000,   -7.50000000000000,   -1.56250000000000], "fix": 1, "layer": 1}
+{"node": 242, "xyz": [   10.0000000000000,   -5.00000000000000,   -1.56250000000000], "fix": 1, "layer": 1}
+{"node": 246, "xyz": [   10.0000000000000,   -2.50000000000000,   -1.56250000000000], "fix": 1, "layer": 1}
+{"node": 247, "xyz": [   10.0000000000000,   0.000000000000000E+000,   -1.56250000000000], "fix": 1, "layer": 1}
+{"node": 249, "xyz": [   10.0000000000000,    2.50000000000000,   -1.56250000000000], "fix": 1, "layer": 1}
+{"node": 250, "xyz": [   10.0000000000000,    5.00000000000000,   -1.56250000000000], "fix": 1, "layer": 1}
+{"node": 252, "xyz": [   10.0000000000000,    7.50000000000000,   -1.56250000000000], "fix": 1, "layer": 1}
+{"node": 256, "xyz": [   10.0000000000000,    10.0000000000000,   -1.56250000000000], "fix": 1, "layer": 1}
+{"node": 720, "xyz": [   10.0000000000000,   -3.75000000000000,  -0.781250000000000], "fix": 1, "layer": 1}
+{"node": 722, "xyz": [   10.0000000000000,   -2.50000000000000,  -0.781250000000000], "fix": 1, "layer": 1}
+{"node": 725, "xyz": [   10.0000000000000,   -1.25000000000000,  -0.781250000000000], "fix": 1, "layer": 1}
+{"node": 727, "xyz": [   10.0000000000000,   0.000000000000000E+000,  -0.781250000000000], "fix": 1, "layer": 1}
+{"node": 730, "xyz": [   10.0000000000000,    1.25000000000000,  -0.781250000000000], "fix": 1, "layer": 1}
+{"node": 732, "xyz": [   10.0000000000000,    2.50000000000000,  -0.781250000000000], "fix": 1, "layer": 1}
+{"node": 735, "xyz": [   10.0000000000000,    3.75000000000000,  -0.781250000000000], "fix": 1, "layer": 1}
+{"node": 1, "xyz": [  -10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 2, "layer": 1}
+{"node": 2, "xyz": [   10.0000000000000,   -10.0000000000000,   -25.0000000000000], "fix": 2, "layer": 1}
+{"node": 5, "xyz": [  -10.0000000000000,   -10.0000000000000,   -12.5000000000000], "fix": 2, "layer": 1}
+{"node": 6, "xyz": [   10.0000000000000,   -10.0000000000000,   -12.5000000000000], "fix": 2, "layer": 1}
+{"node": 12, "xyz": [  -10.0000000000000,   -10.0000000000000,   -6.25000000000000], "fix": 2, "layer": 1}
+{"node": 13, "xyz": [  0.000000000000000E+000,   -10.0000000000000,   -6.25000000000000], "fix": 2, "layer": 1}
+{"node": 20, "xyz": [   10.0000000000000,   -10.0000000000000,   -6.25000000000000], "fix": 2, "layer": 1}
+{"node": 26, "xyz": [  -10.0000000000000,   -10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 1}
+{"node": 27, "xyz": [  -5.00000000000000,   -10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 1}
+{"node": 41, "xyz": [  0.000000000000000E+000,   -10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 1}
+{"node": 49, "xyz": [   5.00000000000000,   -10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 1}
+{"node": 58, "xyz": [   10.0000000000000,   -10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 1}
+{"node": 67, "xyz": [  -10.0000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 1}
+{"node": 68, "xyz": [  -7.50000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 1}
+{"node": 108, "xyz": [  -5.00000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 1}
+{"node": 126, "xyz": [  -2.50000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 1}
+{"node": 153, "xyz": [  0.000000000000000E+000,   -10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 1}
+{"node": 172, "xyz": [   2.50000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 1}
+{"node": 194, "xyz": [   5.00000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 1}
+{"node": 213, "xyz": [   7.50000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 1}
+{"node": 238, "xyz": [   10.0000000000000,   -10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 1}
+{"node": 401, "xyz": [  -3.75000000000000,   -10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 1}
+{"node": 436, "xyz": [  -2.50000000000000,   -10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 1}
+{"node": 459, "xyz": [  -1.25000000000000,   -10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 1}
+{"node": 488, "xyz": [  0.000000000000000E+000,   -10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 1}
+{"node": 511, "xyz": [   1.25000000000000,   -10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 1}
+{"node": 540, "xyz": [   2.50000000000000,   -10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 1}
+{"node": 563, "xyz": [   3.75000000000000,   -10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 1}
+{"node": 3, "xyz": [   10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 2, "layer": 1}
+{"node": 4, "xyz": [  -10.0000000000000,    10.0000000000000,   -25.0000000000000], "fix": 2, "layer": 1}
+{"node": 7, "xyz": [   10.0000000000000,    10.0000000000000,   -12.5000000000000], "fix": 2, "layer": 1}
+{"node": 8, "xyz": [  -10.0000000000000,    10.0000000000000,   -12.5000000000000], "fix": 2, "layer": 1}
+{"node": 17, "xyz": [  0.000000000000000E+000,    10.0000000000000,   -6.25000000000000], "fix": 2, "layer": 1}
+{"node": 18, "xyz": [  -10.0000000000000,    10.0000000000000,   -6.25000000000000], "fix": 2, "layer": 1}
+{"node": 22, "xyz": [   10.0000000000000,    10.0000000000000,   -6.25000000000000], "fix": 2, "layer": 1}
+{"node": 38, "xyz": [  -5.00000000000000,    10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 1}
+{"node": 39, "xyz": [  -10.0000000000000,    10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 1}
+{"node": 46, "xyz": [  0.000000000000000E+000,    10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 1}
+{"node": 56, "xyz": [   5.00000000000000,    10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 1}
+{"node": 63, "xyz": [   10.0000000000000,    10.0000000000000,   -3.12500000000000], "fix": 2, "layer": 1}
+{"node": 103, "xyz": [  -7.50000000000000,    10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 1}
+{"node": 104, "xyz": [  -10.0000000000000,    10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 1}
+{"node": 121, "xyz": [  -5.00000000000000,    10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 1}
+{"node": 151, "xyz": [  -2.50000000000000,    10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 1}
+{"node": 169, "xyz": [  0.000000000000000E+000,    10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 1}
+{"node": 192, "xyz": [   2.50000000000000,    10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 1}
+{"node": 210, "xyz": [   5.00000000000000,    10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 1}
+{"node": 232, "xyz": [   7.50000000000000,    10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 1}
+{"node": 256, "xyz": [   10.0000000000000,    10.0000000000000,   -1.56250000000000], "fix": 2, "layer": 1}
+{"node": 432, "xyz": [  -3.75000000000000,    10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 1}
+{"node": 455, "xyz": [  -2.50000000000000,    10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 1}
+{"node": 485, "xyz": [  -1.25000000000000,    10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 1}
+{"node": 507, "xyz": [  0.000000000000000E+000,    10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 1}
+{"node": 537, "xyz": [   1.25000000000000,    10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 1}
+{"node": 559, "xyz": [   2.50000000000000,    10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 1}
+{"node": 589, "xyz": [   3.75000000000000,    10.0000000000000,  -0.781250000000000], "fix": 2, "layer": 1}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_1.typ.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_1.dis.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_1.sig.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_1.svm.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_1.sp1.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_1.sd1.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_1.sp2.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_1.sd2.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_1.sp3.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_1.sd3.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_1.ept.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_1.tmp.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical.case"}}
+{"information": {"increment end": 1}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_2.typ.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_2.dis.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_2.sig.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_2.svm.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_2.sp1.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_2.sd1.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_2.sp2.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_2.sd2.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_2.sp3.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_2.sd3.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_2.ept.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_2.tmp.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical.case"}}
+{"information": {"increment end": 2}}
+{"information": {"layer end": 1, "z height":    3.20000000000000}}
+{"information": {"timeline": "cooldown start"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical_2.geo"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_3.typ.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_3.grc.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_3.grd.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_3.dis.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_3.sig.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_3.svm.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_3.sp1.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_3.sd1.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_3.sp2.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_3.sd2.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_3.sp3.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_3.sd3.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_3.ept.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_3.tmp.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical_f.case"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical.case"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_1.rct.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_1.rcd.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_2.rct.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_2.rcd.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_3.rct.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_3.rcd.ens"}}
+{"information": {"finished writing file": "meshes2_mechanical_1.wrtu"}}
+{"information": {"finished writing file": "meshes2_mechanical_1.wrtu.sig"}}
+{"information": {"finished writing file": "meshes2_mechanical_1.wrtu.svm"}}
+{"information": {"finished writing file": "meshes2_mechanical_1.wrtu.sp3"}}
+{"information": {"finished writing file": "meshes2_mechanical_1.wrtu.sd3"}}
+{"information": {"finished writing file": "meshes2_mechanical_1.wrtu.ept"}}
+{"information": {"finished writing file": "meshes2_mechanical_1.wrtu.tmp"}}
+{"information": {"finished writing file": "meshes2_mechanical_1.wrtu.typ"}}
+{"information": {"increment end": 3}}
+{"information": {"layer end": 1, "z height":    3.20000000000000}}
+{"information": {"timeline": "substrate removal start"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical_3.geo"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_4.typ.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_4.grc.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_4.grd.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_4.dis.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_4.sig.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_4.svm.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_4.sp1.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_4.sd1.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_4.sp2.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_4.sd2.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_4.sp3.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_4.sd3.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_4.ept.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_4.tmp.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical_f.case"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical.case"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_4.rct.ens"}}
+{"information": {"finished writing file": "results\\meshes2_mechanical00_4.rcd.ens"}}
+{"information": {"finished writing file": "meshes2_mechanical_2.wrtu"}}
+{"information": {"finished writing file": "meshes2_mechanical_2.wrtu.sig"}}
+{"information": {"finished writing file": "meshes2_mechanical_2.wrtu.svm"}}
+{"information": {"finished writing file": "meshes2_mechanical_2.wrtu.sp3"}}
+{"information": {"finished writing file": "meshes2_mechanical_2.wrtu.sd3"}}
+{"information": {"finished writing file": "meshes2_mechanical_2.wrtu.ept"}}
+{"information": {"finished writing file": "meshes2_mechanical_2.wrtu.tmp"}}
+{"information": {"finished writing file": "meshes2_mechanical_2.wrtu.typ"}}
+{"information": {"increment end": 4}}
+{"information": {"layer end": 1, "z height":    3.20000000000000}}
+{"information": {"finished writing file": ".\\meshes2_mechanical_f.case"}}
+{"information": {"finished writing file": ".\\meshes2_mechanical.case"}}
+{"information": {"wall time":    8.75602912902832, "units": "s"}}
+{"information": {"max ram": 88544, "units": "kB"}}
+{"information": "successful finish"}

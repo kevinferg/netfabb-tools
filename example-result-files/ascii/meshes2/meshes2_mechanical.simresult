@@ -1,0 +1,110 @@
+{
+	"schema": "com.autodesk.pan.simulationresult-1.0",
+	"version":
+	{
+		"Major": 24,
+		"Minor": 0,
+		"Patch": 18
+	},
+	"build":
+	{
+		"Major": 24,
+		"Minor": 0,
+		"Revision": 0,
+		"Increment": 120
+	},
+	"case_files":
+	[
+		{
+			"name": "meshes2_mechanical.case",
+			"path": ".",
+			"type": "Coarse"
+		},
+		{
+			"name": "meshes2_mechanical_f.case",
+			"path": ".",
+			"type": "Fine"
+		},
+		{
+			"name": "meshes2_mechanical_mesh_geom.case",
+			"path": ".",
+			"type": "Mesh preview"
+		}
+	],
+	"vtk_ranges":
+	{
+		"Displacement":
+		{
+			"magnitude": [  0.0000000E+00,   8.5619807E-02],
+			"x": [ -6.6290729E-02,   6.6292368E-02],
+			"y": [ -6.2385261E-02,   6.2291816E-02],
+			"z": [ -2.5780600E-02,   7.6666854E-02]
+		},
+		"Recoater_clearance_%": [   100.0000,    100.0000]
+	},
+	"ensight_ranges":
+	{
+		"von_Mises_stress": [  1.9469400E-04,    1301.752],
+		"Temperature": [   25.00000,    154.8849],
+		"Recoater_clearance_%": [   100.0000,    100.0000],
+		"Principal_stress_max": [  -328.2549,    1290.065],
+		"Principal_stress_mid": [  -665.9121,    849.8481],
+		"Principal_stress_min": [  -666.2950,    90.19779],
+		"Displacement":
+		{
+			"magnitude": [  0.0000000E+00,   8.5619807E-02],
+			"x": [ -6.6290729E-02,   6.6292368E-02],
+			"y": [ -6.2385261E-02,   6.2291816E-02],
+			"z": [ -2.5780600E-02,   7.6666854E-02]
+		},
+		"Principal_stress_direction_max":
+		{
+			"magnitude": [   1.000000,    1.730777],
+			"x": [  -1.000000,    1.000000],
+			"y": [  -1.000000,    1.000000],
+			"z": [  -1.000000,    1.000000]
+		},
+		"Principal_stress_direction_mid":
+		{
+			"magnitude": [   1.000000,    1.721250],
+			"x": [  -1.000000,    1.000000],
+			"y": [  -1.000000,    1.000000],
+			"z": [  -1.000000,    1.000000]
+		},
+		"Principal_stress_direction_min":
+		{
+			"magnitude": [   1.000000,    1.707202],
+			"x": [  -1.000000,    1.000000],
+			"y": [  -1.000000,    1.000000],
+			"z": [  -1.000000,    1.000000]
+		},
+		"Cauchy_stress":
+		{
+			"x": [  -665.9507,    849.9142],
+			"y": [  -666.2564,    773.6514],
+			"z": [  -394.0592,    1178.807],
+			"xy": [  -576.5497,    577.7424],
+			"yz": [  -555.4213,    556.4697],
+			"zx": [  -621.8142,    621.7725]
+		},
+		"Elastic_strain":
+		{
+			"x": [ -1.0327252E-02,   4.5761177E-03],
+			"y": [ -9.1174133E-03,   4.8900982E-03],
+			"z": [ -4.8002517E-03,   7.6920274E-03],
+			"xy": [ -1.2080069E-02,   1.2056654E-02],
+			"yz": [ -2.9102141E-02,   2.9068118E-02],
+			"zx": [ -2.9297518E-02,   2.9291907E-02]
+		}
+	},
+	"structure_type":
+	{
+		"-1": "Unsupported volume",
+		"0": "Build Plate",
+		"1": "Powder",
+		"2": "Part",
+		"3": "Homogenized part",
+		"4": "Support Structure",
+		"5": "Failed Support Structure"
+	}
+}

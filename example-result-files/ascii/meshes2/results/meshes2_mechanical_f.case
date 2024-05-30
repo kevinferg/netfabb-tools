@@ -1,0 +1,21 @@
+FORMAT
+type: ensight gold
+GEOMETRY
+model: 2 ./meshes2_mechanical_*.geof
+VARIABLE
+scalar per node: 1 Global_recoater_clearance_% ./meshes2_mechanical00_*.grc.ens
+scalar per node: 1 Global_recoater_status ./meshes2_mechanical00_*.grd.ens
+TIME
+time set: 1
+number of steps: 1
+filename start number: 3
+filename increment: 1
+time values:
+  1.0176563500000001E+05
+TIME
+time set: 2
+number of steps: 1
+filename start number: 0
+filename increment: 1
+time values:
+  1.0176563500000001E+05

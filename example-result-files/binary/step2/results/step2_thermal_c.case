@@ -1,0 +1,28 @@
+FORMAT
+type: ensight gold
+GEOMETRY
+model: 2 ./step2_thermal_*.geoc
+VARIABLE
+scalar per node: 1 Temperature ./step2_thermal00_*.tmp.ens
+TIME
+time set: 1
+number of steps: 3
+filename numbers:
+           2
+           4
+           6
+time values:
+  1.8906651968582260E+03
+  3.6715164721158926E+03
+  4.9027977264706624E+03
+TIME
+time set: 2
+number of steps: 3
+filename numbers:
+           1
+           2
+           3
+time values:
+  1.8906651968582260E+03
+  3.6715164721158926E+03
+  4.9027977264706624E+03
