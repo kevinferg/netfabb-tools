@@ -1,3 +1,0 @@
-time (s), layer group, recoater clearance (%), top z deformed coord (mm), recoater coord (mm), top z undeformed coord (mm)
-  1.890665E+03,              1,         69.719,   3.212112E+00,   3.240000E+00,   3.200000E+00, 
-  3.671516E+03,              2,        103.954,   6.398418E+00,   6.440000E+00,   6.400000E+00, 

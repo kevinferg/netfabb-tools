@@ -1,1 +1,0 @@
-time (s), layer group, recoater clearance (%), top z deformed coord (mm), recoater coord (mm), top z undeformed coord (mm)
