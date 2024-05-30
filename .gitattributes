@@ -1,2 +1,2 @@
-# Don't count Jupyter notebooks as code
+# Don't count example results as code
 example-result-files/** linguist-detectable=false
