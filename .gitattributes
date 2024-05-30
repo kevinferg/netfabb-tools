@@ -1,0 +1,2 @@
+# Don't count Jupyter notebooks as code
+example-result-files/** linguist-detectable=false
