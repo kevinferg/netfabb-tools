@@ -4,11 +4,9 @@ import struct
 
 ####################################################################################################
 
-
 FULL_DATASET_PATH = r"example-result-files/binary"
 NEW_DATASET_PATH = r"example-result-files/binary-npz"
 ERROR_FILENAME = r"netfabb-errors.txt"
-
 
 ####################################################################################################
 
@@ -95,7 +93,6 @@ def get_vertices_from_geo(filename, return_elements=False):
     else:
         return data["nodes"], data["elems"]
 
-
 def get_values_from_ens(filename, N, nv):
     data = read_ens_binary(filename, N, nv)
     return data["data"]
@@ -113,24 +110,35 @@ def get_file_info(filename):
     case_file = f"{filename}/results/{basename}mechanical.case"
 
     frame_count = extract_frames_from_case(case_file)
+    if frame_count == []:
+        return dict(error=f"Case file missing frame count. {filename}")
+    
     semi_frame_count = frame_count//2+1
     geo_file = f"{filename}/results/{basename}mechanical_{semi_frame_count}.geo"
-    displacement_file = f"{filename}/results/{basename}mechanical00_{frame_count}.dis.ens"
-    recoater_clearance_file = f"{filename}/results/{basename}mechanical00_{frame_count}.rct.ens"
-    global_geo = f"{filename}/results/{basename}mechanical_0.geof"
-    recoater_clearance_file_global = f"{filename}/results/{basename}mechanical00_{frame_count-1}.grd.ens"
+    if not os.path.exists(geo_file):
+        return dict(error="Missing Geo file.")
+    basefilename = f"{filename}/results/{basename}mechanical00_{frame_count}."
 
-    return dict(geo=geo_file, disp=displacement_file, rc=recoater_clearance_file, ggeo=global_geo, grc=recoater_clearance_file_global,
-                frame_count=frame_count, semi_frame_count=semi_frame_count)
+    return dict(geo=geo_file, basefilename=basefilename)
 
-def get_displacement_results_only(filename):
+def get_all_results(filename):
     info = get_file_info(filename)
     if len(info) == 1:
         return [info["error"],] # Simulation failed
+    
     verts, elems = get_vertices_from_geo(info["geo"], return_elements=True)
     N_verts = verts.shape[0]
-    disp = get_values_from_ens(info["disp"], N_verts, 3)
-    return verts, elems, disp
+
+    result_types = dict(dis="disp", ept="strain", rcd="recoater_status", rct="recoater_clearance_percent", sd1="max_dir", sd2="mid_dir", sd3="min_dir",
+                        sig="cauchy_stress", sp1="max_stress", sp2="mid_stress", sp3="min_stress", svm="von_mises_stress", tmp="temp")
+    result_nums = dict(dis=3, ept=6, rcd=1, rct=1, sd1=3, sd2=3, sd3=3, sig=6, sp1=1, sp2=1, sp3=1, svm=1, tmp=1)
+
+    results = dict(verts=verts, elems=elems)
+    for key in result_types:
+        result = get_values_from_ens(info['basefilename'] + key + ".ens",N_verts, result_nums[key])
+        results[result_types[key]] = result.astype(np.float32)
+
+    return results
 
 status_bar_previous_length = -1
 def print_status_bar(i, N):
@@ -148,20 +156,20 @@ def extract_data(full_dataset, new_dataset, error_file):
     num_files = len(names)
     num_success = 0
     print(f"Loading displacement results from: {full_dataset} into {new_dataset}")
-    with open(error_file,"w") as err:
+
+    with open(error_file,"a") as err:
         for i, name in enumerate(names):
             print_status_bar(i,num_files)
-            results = get_displacement_results_only(os.path.join(full_dataset, name))
+            results = get_all_results(os.path.join(full_dataset, name))
             if len(results) == 1:
                 err.write(f'{name}\n')
             else:
                 num_success += 1
-                verts, elems, disp = results
                 output_path = os.path.join(new_dataset, name + '.npz')
-                np.savez(output_path, verts=verts.astype(np.float32), elems=elems.astype(np.int32), disp=disp.astype(np.float32))
+                np.savez(output_path, **results)
+                
     print(f"Done. {num_success} of {num_files} simulations successful.             ")
     print(f"Failed simulation file names are logged to {error_file}")
-
 
 ####################################################################################################
 

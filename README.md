@@ -3,7 +3,7 @@ Tools for working with data from Autodesk Netfabb in Python
 
 ## Description of files
 - [ensight.py](ensight.py) - Read .geo and .ens files in EnSight Fortran Binary format
-- [extract-netfabb-data-binary.py](extract-netfabb-data-binary.py) - Input a directory with Netfabb (binary) results. Outputs .npz files with vertex coordinates, edge connectivities, and nodal displacements at the final time step. The script could potentially be modified to export information other than nodal displacements.
+- [extract-netfabb-data-binary.py](extract-netfabb-data-binary.py) - Input a directory with Netfabb (binary) results. Outputs .npz files with vertex coordinates, edge connectivities, and all nodal quantities at the final time step.
 - [extract-netfabb-data-ascii.py](extract-netfabb-data-ascii.py) - Same as above, but for ASCII result files.
 
 ## Provided examples
