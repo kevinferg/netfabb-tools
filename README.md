@@ -11,6 +11,15 @@ Tools for working with data from Autodesk Netfabb in Python
 - [ASCII Example](example-result-files/ascii)
 - [Fortran Binary Example](example-result-files/binary)
 
+## Data Generation
+The ability to run a Netfabb simulation for a large number of parts is made possible using the `pan` command for batch simulation. The procedure is listed below:  
+
+- 1. Edit the paths and other variables as needed in the [batch script](data-gen/run.bat) and the [Python script](data-gen/batch-simulate.py), etc.
+- 2. Populate the 'train' and 'test' fields of the [json file](data-gen/simple_train_test.json) with the names of stl files to simulate. Currently it contains the parts from the Fusion360 Gallery segmentation dataset.
+- 3. Replace the (input files)[data-gen/input], ensuring each file refers to the correct input file names
+- 4. Edit the [indices to simulate](data-gen/start-stop-indices.txt). E.g. `0 2500` will simulate parts 0 to 2499 from the json
+- 5. Run run.bat
+
 
 ## Useful links
 - [Netfabb Output Files](https://help.autodesk.com/view/NETF/2024/ENU/?guid=GUID-FFA9FD93-2501-42A7-9272-1CB462FBC077) - 
