@@ -16,7 +16,7 @@ The ability to run a Netfabb simulation for a large number of parts is made poss
 
 - 1. Edit the paths and other variables as needed in the [batch script](data-gen/run.bat) and the [Python script](data-gen/batch-simulate.py), etc.
 - 2. Populate the 'train' and 'test' fields of the [json file](data-gen/simple_train_test.json) with the names of stl files to simulate. Currently it contains the parts from the Fusion360 Gallery segmentation dataset.
-- 3. Replace the (input files)[data-gen/input], ensuring each file refers to the correct input file names
+- 3. Replace the [input files](data-gen/input), ensuring each file refers to the correct input file names
 - 4. Edit the [indices to simulate](data-gen/start-stop-indices.txt). E.g. `0 2500` will simulate parts 0 to 2499 from the json
 - 5. Run run.bat
 
